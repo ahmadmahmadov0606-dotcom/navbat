@@ -1,0 +1,16 @@
+{
+  "name": "Navbat — online booking",
+  "short_name": "Navbat",
+  "description": "Book doctors, barbers, lawyers, car care, driving instructors and tutors in Tajikistan.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fbf8ff",
+  "theme_color": "#3b2fd9",
+  "lang": "tg",
+  "icons": [
+    { "src": "/static/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/static/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/static/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

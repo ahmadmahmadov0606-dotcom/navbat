@@ -1,0 +1,504 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: navbat\n"
+"Language: tg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Username"
+msgstr "Номи корбар"
+
+msgid "Password"
+msgstr "Парол"
+
+msgid "Phone"
+msgstr "Телефон"
+
+msgid "Role"
+msgstr "Нақш"
+
+msgid "Category"
+msgstr "Категория"
+
+msgid "Name"
+msgstr "Ном"
+
+msgid "Address"
+msgstr "Суроға"
+
+msgid "City"
+msgstr "Шаҳр"
+
+msgid "Service"
+msgstr "Хизмат"
+
+msgid "Start"
+msgstr "Оғоз"
+
+msgid "End"
+msgstr "Анҷом"
+
+msgid "Date"
+msgstr "Сана"
+
+msgid "Weekday"
+msgstr "Рӯзи ҳафта"
+
+msgid "Status"
+msgstr "Ҳолат"
+
+msgid "Price"
+msgstr "Нарх"
+
+msgid "Duration"
+msgstr "Давомнокӣ"
+
+msgid "Rating"
+msgstr "Баҳо"
+
+msgid "Comment"
+msgstr "Шарҳ"
+
+msgid "Booking"
+msgstr "Сабт"
+
+msgid "Refresh token"
+msgstr "Токени навсозӣ"
+
+msgid "Dushanbe"
+msgstr "Душанбе"
+
+msgid "Khujand"
+msgstr "Хуҷанд"
+
+msgid "Bokhtar"
+msgstr "Бохтар"
+
+msgid "Pending"
+msgstr "Дар интизорӣ"
+
+msgid "Confirmed"
+msgstr "Тасдиқшуда"
+
+msgid "Cancelled"
+msgstr "Бекоршуда"
+
+msgid "Done"
+msgstr "Анҷомёфта"
+
+msgid "Customer"
+msgstr "Мизоҷ"
+
+msgid "Provider"
+msgstr "Мутахассис"
+
+msgid "Monday"
+msgstr "Душанбе"
+
+msgid "Tuesday"
+msgstr "Сешанбе"
+
+msgid "Wednesday"
+msgstr "Чоршанбе"
+
+msgid "Thursday"
+msgstr "Панҷшанбе"
+
+msgid "Friday"
+msgstr "Ҷумъа"
+
+msgid "Saturday"
+msgstr "Шанбе"
+
+msgid "Sunday"
+msgstr "Якшанбе"
+
+msgid "address"
+msgstr "суроға"
+
+msgid "booking"
+msgstr "сабт"
+
+msgid "bookings"
+msgstr "сабтҳо"
+
+msgid "categories"
+msgstr "категорияҳо"
+
+msgid "category"
+msgstr "категория"
+
+msgid "city"
+msgstr "шаҳр"
+
+msgid "comment"
+msgstr "шарҳ"
+
+msgid "date"
+msgstr "сана"
+
+msgid "day off"
+msgstr "рӯзи истироҳат"
+
+msgid "days off"
+msgstr "рӯзҳои истироҳат"
+
+msgid "duration (min)"
+msgstr "давомнокӣ (дақ)"
+
+msgid "end"
+msgstr "анҷом"
+
+msgid "name"
+msgstr "ном"
+
+msgid "phone"
+msgstr "телефон"
+
+msgid "price"
+msgstr "нарх"
+
+msgid "provider"
+msgstr "мутахассис"
+
+msgid "providers"
+msgstr "мутахассисон"
+
+msgid "rating"
+msgstr "баҳо"
+
+msgid "review"
+msgstr "тақриз"
+
+msgid "reviews"
+msgstr "тақризҳо"
+
+msgid "role"
+msgstr "нақш"
+
+msgid "service"
+msgstr "хизмат"
+
+msgid "services"
+msgstr "хизматҳо"
+
+msgid "specialty"
+msgstr "ихтисос"
+
+msgid "start"
+msgstr "оғоз"
+
+msgid "status"
+msgstr "ҳолат"
+
+msgid "weekday"
+msgstr "рӯзи ҳафта"
+
+msgid "working hours"
+msgstr "соатҳои корӣ"
+
+msgid "Choose a category."
+msgstr "Категорияро интихоб кунед."
+
+msgid "Enter a date in the format YYYY-MM-DD."
+msgstr "Санаро дар шакли СССС-ММ-РР ворид кунед."
+
+msgid "Enter a valid phone number, e.g. +992 90 123 4567."
+msgstr "Рақами дурусти телефонро ворид кунед, масалан +992 90 123 4567."
+
+msgid "Enter the name at least in one language."
+msgstr "Номро ақаллан бо як забон ворид кунед."
+
+msgid "Enter the name of your business."
+msgstr "Номи тиҷорати худро ворид кунед."
+
+msgid "Error."
+msgstr "Хато."
+
+msgid "Invalid data."
+msgstr "Маълумоти нодуруст."
+
+msgid "Invalid id."
+msgstr "Идентификатори нодуруст."
+
+msgid "Not found."
+msgstr "Ёфт нашуд."
+
+msgid "Only pending or confirmed bookings can be cancelled."
+msgstr "Танҳо сабти интизорӣ ё тасдиқшударо бекор кардан мумкин аст."
+
+msgid "Only providers can do this. Register as a provider first."
+msgstr ""
+"Ин амал танҳо барои мутахассисон аст. Аввал ҳамчун мутахассис сабти ном "
+"кунед."
+
+msgid "Only providers can see bookings made to them."
+msgstr "Сабтҳоро танҳо мутахассисон дида метавонанд."
+
+msgid "The end time must be later than the start time."
+msgstr "Вақти анҷом бояд баъд аз вақти оғоз бошад."
+
+msgid "These hours overlap with other working hours on the same day."
+msgstr "Ин соатҳо бо дигар соатҳои кории ҳамин рӯз мувофиқ меоянд."
+
+msgid "This day is already marked as a day off."
+msgstr "Ин рӯз аллакай ҳамчун рӯзи истироҳат қайд шудааст."
+
+msgid "This object is used by other records and cannot be deleted."
+msgstr "Ин объект дар дигар сабтҳо истифода мешавад ва нест карда намешавад."
+
+msgid "This provider has no services yet."
+msgstr "Ин мутахассис ҳоло хизмат надорад."
+
+msgid "This provider has no such service."
+msgstr "Ин мутахассис чунин хизмат надорад."
+
+msgid "This service is not available."
+msgstr "Ин хизмат дастрас нест."
+
+msgid "This time is not available. Please choose another slot."
+msgstr "Ин вақт дастрас нест. Лутфан вақти дигарро интихоб кунед."
+
+msgid "Unknown city."
+msgstr "Шаҳри номаълум."
+
+msgid "Unknown status."
+msgstr "Ҳолати номаълум."
+
+msgid "You already have another booking at this time."
+msgstr "Шумо дар ин вақт аллакай сабти дигар доред."
+
+msgid "You can leave a review only after the visit is done."
+msgstr "Тақризро танҳо пас аз анҷоми ташриф гузоштан мумкин аст."
+
+msgid "You can only cancel your booking."
+msgstr "Шумо танҳо сабти худро бекор карда метавонед."
+
+msgid "You can review only your own bookings."
+msgstr "Тақризро танҳо ба сабтҳои худ гузоштан мумкин аст."
+
+msgid "You cannot book a time in the past."
+msgstr "Ба вақти гузашта сабт шудан мумкин нест."
+
+msgid "You cannot book your own service."
+msgstr "Ба хизмати худ сабт шудан мумкин нест."
+
+msgid "You have already reviewed this booking."
+msgstr "Шумо аллакай ба ин сабт тақриз гузоштаед."
+
+msgid "No active account found with the given credentials"
+msgstr "Бо ин маълумот ҳисоби фаъол ёфт нашуд. Номи корбар ё паролро санҷед"
+
+msgid "No active account found for the given token."
+msgstr "Барои ин токен ҳисоби фаъол ёфт нашуд."
+
+msgid "Given token not valid for any token type"
+msgstr "Токен нодуруст аст. Аз нав ворид шавед"
+
+msgid "Token is invalid or expired"
+msgstr "Токен нодуруст ё мӯҳлаташ гузаштааст"
+
+msgid "Token is invalid"
+msgstr "Токен нодуруст аст"
+
+msgid "Token is expired"
+msgstr "Мӯҳлати токен гузаштааст"
+
+msgid "Token is blacklisted"
+msgstr "Токен манъ шудааст"
+
+msgid "Token has wrong type"
+msgstr "Навъи токен нодуруст аст"
+
+msgid "Token has no type"
+msgstr "Токен навъ надорад"
+
+msgid "Token has no id"
+msgstr "Токен идентификатор надорад"
+
+msgid "Token contained no recognizable user identification"
+msgstr "Дар токен маълумоти корбар нест"
+
+msgid "Authorization header must contain two space-delimited values"
+msgstr "Сарлавҳаи Authorization бояд ду қимати бо фосила ҷудошуда дошта бошад"
+
+msgid "User not found"
+msgstr "Корбар ёфт нашуд"
+
+msgid "User is inactive"
+msgstr "Корбар ғайрифаъол аст"
+
+msgid "Authentication credentials were not provided."
+msgstr "Барои ин амал ворид шавед (маълумоти аутентификатсия нест)."
+
+msgid "Incorrect authentication credentials."
+msgstr "Маълумоти аутентификатсия нодуруст аст."
+
+msgid "You do not have permission to perform this action."
+msgstr "Шумо барои ин амал иҷозат надоред."
+
+msgid "Method \"{method}\" not allowed."
+msgstr "Усули \"{method}\" иҷозат дода нашудааст."
+
+msgid "Request was throttled."
+msgstr "Дархостҳо аз ҳад зиёданд."
+
+msgid "Expected available in {wait} second."
+msgstr "Баъд аз {wait} сония дубора кӯшиш кунед."
+
+msgid "Expected available in {wait} seconds."
+msgstr "Баъд аз {wait} сония дубора кӯшиш кунед."
+
+msgid "A server error occurred."
+msgstr "Хатои сервер рух дод."
+
+msgid "Malformed request."
+msgstr "Дархости нодуруст."
+
+msgid "Invalid input."
+msgstr "Маълумоти нодуруст."
+
+msgid "Invalid page."
+msgstr "Саҳифаи нодуруст."
+
+msgid "Unsupported media type \"{media_type}\" in request."
+msgstr "Навъи медиаи \"{media_type}\" дастгирӣ намешавад."
+
+msgid "This field is required."
+msgstr "Ин майдон ҳатмӣ аст."
+
+msgid "This field may not be blank."
+msgstr "Ин майдон набояд холӣ бошад."
+
+msgid "This field may not be null."
+msgstr "Ин майдон набояд холӣ бошад."
+
+msgid "Not a valid string."
+msgstr "Сатри нодуруст."
+
+msgid "Must be a valid boolean."
+msgstr "Бояд қимати мантиқӣ бошад."
+
+msgid "A valid integer is required."
+msgstr "Адади бутуни дуруст лозим аст."
+
+msgid "A valid number is required."
+msgstr "Адади дуруст лозим аст."
+
+msgid "Ensure this field has at least {min_length} characters."
+msgstr "Ин майдон бояд ақаллан {min_length} аломат дошта бошад."
+
+msgid "Ensure this field has no more than {max_length} characters."
+msgstr "Ин майдон бояд на зиёда аз {max_length} аломат дошта бошад."
+
+msgid "Ensure this value is greater than or equal to {min_value}."
+msgstr "Қимат бояд аз {min_value} кам набошад."
+
+msgid "Ensure this value is less than or equal to {max_value}."
+msgstr "Қимат бояд аз {max_value} зиёд набошад."
+
+msgid "Ensure that there are no more than {max_digits} digits in total."
+msgstr "Шумораи умумии рақамҳо набояд аз {max_digits} зиёд бошад."
+
+msgid ""
+"Ensure that there are no more than {max_decimal_places} decimal places."
+msgstr "Пас аз вергул на зиёда аз {max_decimal_places} рақам."
+
+msgid ""
+"Ensure that there are no more than {max_whole_digits} digits before the "
+"decimal point."
+msgstr "То вергул на зиёда аз {max_whole_digits} рақам."
+
+msgid "\"{input}\" is not a valid choice."
+msgstr "\"{input}\" интихоби дуруст нест."
+
+msgid "Invalid pk \"{pk_value}\" - object does not exist."
+msgstr "Объект бо id \"{pk_value}\" вуҷуд надорад."
+
+msgid "Incorrect type. Expected pk value, received {data_type}."
+msgstr "Навъи нодуруст: id интизор буд, {data_type} омад."
+
+msgid "Date has wrong format. Use one of these formats instead: {format}."
+msgstr ""
+"Сана шакли нодуруст дорад. Яке аз ин шаклҳоро истифода баред: {format}."
+
+msgid "Datetime has wrong format. Use one of these formats instead: {format}."
+msgstr ""
+"Сана ва вақт шакли нодуруст доранд. Яке аз ин шаклҳоро истифода баред: "
+"{format}."
+
+msgid "Time has wrong format. Use one of these formats instead: {format}."
+msgstr ""
+"Вақт шакли нодуруст дорад. Яке аз ин шаклҳоро истифода баред: {format}."
+
+msgid "Expected a date but got a datetime."
+msgstr "Сана интизор буд, аммо сана ва вақт омад."
+
+msgid "Expected a datetime but got a date."
+msgstr "Сана ва вақт интизор буд, аммо танҳо сана омад."
+
+msgid "Invalid data. Expected a dictionary, but got {datatype}."
+msgstr "Маълумоти нодуруст: объект интизор буд, {datatype} омад."
+
+msgid "This field must be unique."
+msgstr "Ин қимат бояд беназир бошад."
+
+msgid "The fields {field_names} must make a unique set."
+msgstr "Майдонҳои {field_names} бояд маҷмӯи беназир бошанд."
+
+msgid "Value must be valid JSON."
+msgstr "Қимат бояд JSON-и дуруст бошад."
+
+msgid "%(n)d provider"
+msgid_plural "%(n)d providers"
+msgstr[0] "%(n)d мутахассис"
+msgstr[1] "%(n)d мутахассис"
+
+msgid "Sign in to see your saved specialists."
+msgstr "Барои дидани мутахассисони захирашуда ворид шавед."
+
+msgid "Only pending or confirmed bookings can be moved."
+msgstr "Танҳо сабти интизорӣ ё тасдиқшударо интиқол додан мумкин аст."
+
+msgid "The current password is wrong."
+msgstr "Пароли ҷорӣ нодуруст аст."
+
+msgid "favorite"
+msgstr "интихобшуда"
+
+msgid "favorites"
+msgstr "интихобшудаҳо"
+
+msgid "The AI assistant is not configured yet."
+msgstr "Ёвари зеҳни сунъӣ ҳанӯз танзим нашудааст."
+
+msgid "The AI assistant is busy. Please try again in a minute."
+msgstr "Ёвари ЗС банд аст. Пас аз як дақиқа кӯшиш кунед."
+
+msgid "The AI assistant is not available now. Please try again later."
+msgstr "Ёвари ЗС ҳоло дастрас нест. Баъдтар кӯшиш кунед."
+
+msgid ""
+"Sorry, I can't help with that. Try asking about a service, a city or a day."
+msgstr ""
+"Бубахшед, дар ин бора кӯмак карда наметавонам. Дар бораи хизмат, шаҳр ё рӯз "
+"пурсед."
+
+msgid "Invalid coordinates."
+msgstr "Координатаҳои нодуруст."
+
+msgid "latitude"
+msgstr "арз"
+
+msgid "longitude"
+msgstr "тӯл"
+
+msgid "This account is not a specialist. Register as a specialist first."
+msgstr ""
+"Ин ҳисоб ҳисоби мутахассис нест. Аввал ҳамчун мутахассис сабти ном кунед."
+
+msgid "This account is not an administrator."
+msgstr "Ин ҳисоб ҳисоби админ нест."

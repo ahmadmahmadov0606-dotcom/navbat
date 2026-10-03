@@ -1,0 +1,502 @@
+{
+  "meta": {
+    "code": "en",
+    "locale": "en-GB",
+    "short": "EN",
+    "name": "English"
+  },
+  "header": {
+    "search": "Search doctors, barbers, tutors, lawyers...",
+    "explore": "Explore",
+    "categories": "Categories",
+    "myBookings": "My Bookings",
+    "forProviders": "For Providers",
+    "partnerPortal": "Partner Portal",
+    "notifications": "Notifications",
+    "theme": "Toggle Theme",
+    "account": "Account",
+    "language": "Language",
+    "country": "TJ",
+    "allCities": "Tajikistan",
+    "light": "Light theme",
+    "dark": "Dark theme"
+  },
+  "cities": {
+    "dushanbe": "Dushanbe",
+    "khujand": "Khujand",
+    "bokhtar": "Bokhtar"
+  },
+  "hero": {
+    "trust": "Appointments booked on Navbat this week: {n}",
+    "title1": "Book any appointment in seconds,",
+    "title2": "wherever you are.",
+    "subtitle": "Doctors, barbers, top lawyers, car care, driving instructors and certified tutors — all on Navbat.",
+    "service": "Service",
+    "servicePlaceholder": "Dental, Grooming, Legal...",
+    "area": "Area",
+    "allAreas": "All of Tajikistan",
+    "when": "When",
+    "today": "Today, ASAP",
+    "tomorrow": "Tomorrow",
+    "weekend": "This Weekend",
+    "custom": "Pick Custom Date",
+    "findSlots": "Find Slots",
+    "trending": "Trending Now:",
+    "tags": [
+      "Orthodontic Checkup",
+      "Beard Trim & Fade",
+      "Contract Notarization",
+      "SAT Math Prep"
+    ],
+    "allCategories": "All categories",
+    "trustProviders": "Verified specialists on Navbat: {n}",
+    "freeToday": "specialists free today",
+    "statProviders": "verified specialists",
+    "statCategories": "service categories",
+    "statCities": "cities in Tajikistan"
+  },
+  "categories": {
+    "title": "Browse by Specialty",
+    "subtitle": "Direct synchronized calendars with top regional practitioners",
+    "prev": "Previous category",
+    "next": "Next category",
+    "error": "Could not load categories."
+  },
+  "activity": {
+    "title": "{city} Area Activity",
+    "titleAll": "Tajikistan Activity",
+    "subtitle": "{n} specialists still have free time today",
+    "onTime": "Visits completed",
+    "avgConfirm": "Avg. Confirmation",
+    "minutes": "{n} min"
+  },
+  "providers": {
+    "title": "Popular Near You",
+    "badge": "Top Rated",
+    "subtitle": "Verified practitioners with instant confirmation within 3 km",
+    "distance": "Distance",
+    "earliest": "Earliest Slot",
+    "rating": "Rating",
+    "nextSlot": "Next Free Slot:",
+    "noSlots": "No free slots",
+    "from": "From {price}",
+    "km": "{n} km",
+    "quickBook": "Quick Book",
+    "viewSchedule": "View schedule",
+    "save": "Save provider",
+    "verified": "Navbat Verified Specialist",
+    "empty": "No providers found.",
+    "emptyHint": "Try another search, city or date.",
+    "reset": "Reset filters",
+    "error": "Could not load providers.",
+    "retry": "Try again",
+    "loadMore": "Show more",
+    "found": "{n} found",
+    "noLocation": "Your location is not available — distance is counted from the center of {city}."
+  },
+  "how": {
+    "s1": "Real-time Verified Calendars",
+    "t1": "Zero phone tags. See exact real-time openings directly synchronized with verified professional schedules.",
+    "s2": "Reminders & Calendar",
+    "t2": "Notifications about every change, a reminder the day before, the visit in your calendar, 1-click rescheduling and directions.",
+    "s3": "Pay on the Spot",
+    "t3": "Pay by cash or card when you arrive. Transparent cancellation policy — cancel free of charge in one click."
+  },
+  "drawer": {
+    "close": "Close booking modal",
+    "price": "Consultation / Booking Deposit",
+    "service": "Service",
+    "date": "Date",
+    "otherDate": "Other date",
+    "slots": "Available Time Slots for Selected Date",
+    "noSlotsDay": "No free slots on this day. Try another date.",
+    "noServices": "This provider has no services yet.",
+    "lock": "Lock Selected Slot",
+    "hint": "Instant confirmation sent to your connected phone",
+    "min": "{n} min",
+    "chooseSlot": "Choose a time first.",
+    "move": "Move to this time",
+    "moveKicker": "Reschedule",
+    "moveFrom": "{service} · now {when}"
+  },
+  "provider": {
+    "about": "About",
+    "services": "Services",
+    "reviews": "Reviews",
+    "noReviews": "No reviews yet.",
+    "address": "Address",
+    "book": "Book now",
+    "reviewsCount": "{n} reviews",
+    "directions": "Directions"
+  },
+  "auth": {
+    "kicker": "Account",
+    "login": "Welcome back",
+    "register": "Create your account",
+    "registerProvider": "Register your business",
+    "username": "Username",
+    "firstName": "Your name (optional)",
+    "phone": "Phone (optional)",
+    "password": "Password (min 6)",
+    "signIn": "Sign in",
+    "createAccount": "Create account",
+    "haveAccount": "Already have an account?",
+    "newHere": "New to Navbat?",
+    "toBook": "Sign in to lock your slot",
+    "toSee": "Sign in to see your bookings",
+    "toPartner": "Sign in to the partner portal",
+    "iAmProvider": "I am a specialist or a business",
+    "iAmCustomer": "I want to book appointments",
+    "category": "Category",
+    "chooseCategory": "Choose a category",
+    "businessName": "Business or specialist name",
+    "address": "Address",
+    "city": "City",
+    "required": "Fill in: {field}",
+    "shortPassword": "The password must have at least 6 characters.",
+    "toSave": "Sign in to save specialists"
+  },
+  "bookings": {
+    "kicker": "My Bookings",
+    "title": "Your appointments",
+    "empty": "No bookings yet.",
+    "emptyHint": "Find a specialist and book your first slot.",
+    "cancel": "Cancel",
+    "signOut": "Sign out",
+    "rate": "Rate",
+    "yourReview": "Your review",
+    "comment": "Comment (optional)",
+    "send": "Send review",
+    "loadMore": "Show more",
+    "dashboard": "Partner dashboard",
+    "confirmCancel": "Cancel this booking?",
+    "move": "Reschedule",
+    "calendar": "Add to calendar"
+  },
+  "status": {
+    "pending": "pending",
+    "confirmed": "confirmed",
+    "cancelled": "cancelled",
+    "done": "done"
+  },
+  "toast": {
+    "saved": "Saved to your favorites.",
+    "removed": "Removed from favorites.",
+    "welcome": "Welcome, {name}!",
+    "reserved": "Slot reserved! Opening your instant pass...",
+    "cancelled": "Booking cancelled.",
+    "signedOut": "Signed out.",
+    "reviewSent": "Thank you for your review!",
+    "updated": "Saved.",
+    "deleted": "Deleted.",
+    "added": "Added.",
+    "statusChanged": "Status changed: {status}.",
+    "network": "Network error. Please try again.",
+    "error": "Something went wrong.",
+    "notifications": "No new notifications.",
+    "slotGone": "This time was just taken. Please choose another one.",
+    "moved": "Moved to {when}. Waiting for confirmation."
+  },
+  "dates": {
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "at": "{day} at {time}",
+    "weekdays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "weekdaysShort": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Sun"
+    ],
+    "monthsShort": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ]
+  },
+  "money": {
+    "currency": "TJS",
+    "custom": ""
+  },
+  "dashboard": {
+    "kicker": "Partner Portal",
+    "title": "Your dashboard",
+    "back": "Back to Explore",
+    "today": "Today",
+    "bookings": "Bookings",
+    "hours": "Working hours",
+    "daysOff": "Days off",
+    "services": "Services",
+    "profile": "Profile",
+    "statToday": "Today",
+    "statPending": "Waiting for confirmation",
+    "statUpcoming": "Upcoming",
+    "statRating": "Rating",
+    "todayEmpty": "No appointments today.",
+    "listEmpty": "No bookings here.",
+    "all": "All",
+    "confirm": "Confirm",
+    "done": "Done",
+    "cancel": "Cancel",
+    "from": "From",
+    "to": "To",
+    "add": "Add",
+    "delete": "Delete",
+    "save": "Save",
+    "dayOffEmpty": "No days off planned.",
+    "hoursEmpty": "Day off",
+    "addDayOff": "Add a day off",
+    "serviceName": "Service name",
+    "duration": "Duration (min)",
+    "price": "Price (TJS)",
+    "active": "Visible to clients",
+    "inactive": "Hidden",
+    "newService": "New service",
+    "servicesEmpty": "Add your first service so clients can book you.",
+    "name": "Name",
+    "specialty": "Specialty",
+    "capacity": "Clients at the same time",
+    "notProvider": "This page is for specialists and businesses.",
+    "becomePartner": "Register your business",
+    "phone": "Phone",
+    "pastDate": "Choose today or a later date."
+  },
+  "footer": {
+    "tagline": "Instant unified appointment scheduling across Tajikistan for health, legal, education, and grooming specialists.",
+    "verified": "Verified Local Service Providers",
+    "directory": "Services Directory",
+    "dirLinks": [
+      "Doctors & Specialists",
+      "Barbers & Stylists",
+      "Legal Advisors",
+      "Car Wash & Detailing",
+      "Driving Instructors",
+      "Private Tutors"
+    ],
+    "clients": "For Clients",
+    "clientLinks": [
+      "Find Appointments",
+      "My Bookings",
+      "Client Help Desk",
+      "Cancellation Policy",
+      "Mobile Application"
+    ],
+    "pros": "For Professionals",
+    "proLinks": [
+      "Partner Portal",
+      "List Your Business",
+      "Calendar Sync Tools",
+      "Partner Success Stories",
+      "API Integration"
+    ],
+    "company": "Company & Trust",
+    "companyLinks": [
+      "About Navbat",
+      "Security & Privacy",
+      "Terms of Service",
+      "Contact Support"
+    ],
+    "copyright": "© {year} Navbat Technologies. All rights reserved.",
+    "cities": "Dushanbe • Khujand • Bokhtar"
+  },
+  "account": {
+    "bookings": "Bookings",
+    "saved": "Saved",
+    "profile": "Profile"
+  },
+  "saved": {
+    "title": "Saved specialists",
+    "empty": "Nothing saved yet.",
+    "hint": "Tap the bookmark on a specialist's card to save it here."
+  },
+  "profile": {
+    "title": "Your profile",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "password": "Password",
+    "oldPassword": "Current password",
+    "newPassword": "New password (min 6)",
+    "changePassword": "Change password",
+    "passwordChanged": "Password changed."
+  },
+  "notif": {
+    "title": "Your notifications",
+    "empty": "No notifications yet.",
+    "signIn": "Sign in to see notifications",
+    "pending": "{provider}: your booking for {when} is waiting for confirmation.",
+    "confirmed": "{provider} confirmed your visit {when}.",
+    "cancelled": "Booking with {provider} for {when} was cancelled.",
+    "done": "Visit to {provider} is done. Thank you!",
+    "review": "How was {provider}? Leave a review.",
+    "reminder": "Reminder: {service} at {provider}, {when}.",
+    "newBooking": "New booking: {customer}, {service}, {when}.",
+    "clientCancelled": "{customer} cancelled {service}, {when}."
+  },
+  "calendar": {
+    "title": "Calendar sync",
+    "hint": "Subscribe to this secret link in Google, Apple or Outlook calendar — your bookings appear there automatically. Do not share it.",
+    "copy": "Copy",
+    "copied": "Link copied.",
+    "renew": "New link",
+    "renewed": "A new link is ready. The old one no longer works."
+  },
+  "info": {
+    "kicker": "Navbat",
+    "help": {
+      "title": "Client Help Desk",
+      "body": [
+        "Find a specialist, pick a free time and press “Lock Selected Slot”. The specialist confirms the booking and you see it in “My Bookings” and in the notifications.",
+        "You can reschedule or cancel an active booking yourself in “My Bookings”, add it to your calendar and, after the visit, leave a review."
+      ]
+    },
+    "cancellation": {
+      "title": "Cancellation Policy",
+      "body": [
+        "You can cancel or move a pending or confirmed booking at any time before the visit, free of charge, in “My Bookings”.",
+        "Please cancel as early as possible so another client can take the time. Specialists can also cancel; you will see it in the notifications."
+      ]
+    },
+    "mobile": {
+      "title": "Mobile Application",
+      "body": [
+        "Navbat works as an app on your phone: install it from the browser and open it from the home screen, full screen and fast."
+      ],
+      "install": "Install the app",
+      "installed": "The app is installed on this device.",
+      "done": "Navbat is installed!",
+      "manual": "In your browser menu choose “Install app” or “Add to Home screen”."
+    },
+    "about": {
+      "title": "About Navbat",
+      "body": [
+        "Navbat (“queue” in Tajik) is online booking for any service in Tajikistan: doctors, barbers, lawyers, car care, driving instructors and tutors.",
+        "Clients see real free time and book in seconds. Specialists get a simple schedule, reminders and reviews."
+      ]
+    },
+    "privacy": {
+      "title": "Security & Privacy",
+      "body": [
+        "We store only what is needed for booking: your username, name, phone and your bookings. Passwords are stored encrypted.",
+        "Your phone number is shown only to the specialist you booked. We do not sell or share your data."
+      ]
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "body": [
+        "By booking you agree to come on time or cancel in advance. Prices are set by the specialists and paid on the spot in cash or by card.",
+        "Reviews must be honest and polite. Navbat may remove accounts that abuse the service."
+      ]
+    },
+    "contact": {
+      "title": "Contact Support",
+      "body": [
+        "Questions, problems or ideas? Write to us — we answer every message."
+      ]
+    },
+    "sync": {
+      "title": "Calendar Sync Tools",
+      "body": [
+        "Specialists get a private calendar link in the partner dashboard (Profile tab). Add it to Google, Apple or Outlook calendar and every booking appears there automatically.",
+        "Clients can add any booking to their calendar with the calendar button in “My Bookings”."
+      ],
+      "open": "Open partner dashboard"
+    },
+    "stories": {
+      "title": "Partner Success Stories",
+      "body": [
+        "The best rated specialists on Navbat right now:"
+      ]
+    },
+    "api": {
+      "title": "API Integration",
+      "body": [
+        "Navbat has an open JSON API (JWT authorization). The answers come in the language of the Accept-Language header or ?lang=tg|ru|en."
+      ]
+    }
+  },
+  "ai": {
+    "open": "AI assistant",
+    "kicker": "AI assistant",
+    "title": "How can I help?",
+    "hello": "Hi! Tell me what you need — for example “my tooth hurts, tomorrow in Khujand”. I will find a specialist and a free time.",
+    "placeholder": "Write your question…",
+    "send": "Send",
+    "clear": "Clear the chat",
+    "thinking": "Thinking…",
+    "suggestions": [
+      "My tooth hurts, need a dentist tomorrow",
+      "Haircut today in Dushanbe",
+      "Lawyer consultation in Khujand"
+    ]
+  },
+  "mobile": {
+    "partner": "Partner"
+  },
+  "roles": {
+    "customer": "Client",
+    "admin": "Admin",
+    "provider": "Specialist",
+    "adminPanel": "Admin panel",
+    "chooseRole": "Who are you?",
+    "joinAs": "Sign in or register as {role}",
+    "clientsToday": "{clients} today",
+    "doctor-clinics": {
+      "name": "Doctor",
+      "cabinet": "Doctor's dashboard",
+      "clients": "Patients"
+    },
+    "barber-styling": {
+      "name": "Barber",
+      "cabinet": "Barber's dashboard",
+      "clients": "Clients"
+    },
+    "legal-counsel": {
+      "name": "Lawyer",
+      "cabinet": "Lawyer's dashboard",
+      "clients": "Clients"
+    },
+    "car-care": {
+      "name": "Car care",
+      "cabinet": "Car care dashboard",
+      "clients": "Clients"
+    },
+    "driving-instructors": {
+      "name": "Driving instructor",
+      "cabinet": "Instructor's dashboard",
+      "clients": "Students"
+    },
+    "private-tutors": {
+      "name": "Tutor",
+      "cabinet": "Tutor's dashboard",
+      "clients": "Students"
+    }
+  },
+  "admin": {
+    "panel": "Admin panel",
+    "providers": "Specialists",
+    "bookings": "Bookings",
+    "users": "Users",
+    "reviews": "Reviews",
+    "categories": "Categories"
+  }
+}

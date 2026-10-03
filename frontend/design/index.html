@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>Navbat</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-primary-container":"#bebcff","inverse-on-surface":"#f1efff","tertiary":"#00318a","on-tertiary-fixed-variant":"#003ea8","surface-bright":"#fbf8ff","on-error-container":"#93000a","error":"#ba1a1a","surface-dim":"#dad8e9","surface-tint":"#4b43e7","outline-variant":"#c7c4d8","inverse-surface":"#2f2f3c","surface-container-low":"#f4f2ff","surface-variant":"#e2e1f1","tertiary-fixed":"#dbe1ff","on-secondary":"#ffffff","surface-container-high":"#e8e6f7","on-secondary-container":"#690000","primary":"#2100bf","surface-container-lowest":"#ffffff","on-tertiary-container":"#aec0ff","on-primary-fixed":"#0d006a","primary-fixed-dim":"#c2c1ff","surface-container-highest":"#e2e1f1","on-surface":"#1a1b26","surface-container":"#eeecfd","on-tertiary-fixed":"#00174b","background":"#fbf8ff","secondary":"#ae3123","on-secondary-fixed":"#410000","secondary-fixed":"#ffdad4","outline":"#777587","primary-fixed":"#e2dfff","error-container":"#ffdad6","secondary-fixed-dim":"#ffb4a8","on-surface-variant":"#464555","surface":"#fbf8ff","on-tertiary":"#ffffff","on-background":"#1a1b26","primary-container":"#3b2fd9","tertiary-container":"#0046bb","inverse-primary":"#c2c1ff","on-secondary-fixed-variant":"#8c170e","on-primary-fixed-variant":"#3020d0","tertiary-fixed-dim":"#b4c5ff","on-error":"#ffffff","secondary-container":"#fc6955","on-primary":"#ffffff"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"gutter":"1.5rem","space-md":"1rem","space-lg":"1.5rem","gutter-mobile":"1rem","margin-mobile":"1.25rem","space-xl":"2rem","margin":"2.5rem","space-sm":"0.5rem","space-xs":"0.25rem"},"fontFamily":{"title-md":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"body-lg":["Inter"],"display":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"body-sm":["Inter"],"headline-sm":["Plus Jakarta Sans"],"label-md":["Inter"],"body-md":["Inter"],"label-sm":["Inter"],"display-mobile":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"label-lg":["Inter"]},"fontSize":{"title-md":["18px",{"lineHeight":"26px","letterSpacing":"-0.005em","fontWeight":"600"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"700"}],"body-lg":["16px",{"lineHeight":"26px","letterSpacing":"-0.005em","fontWeight":"400"}],"display":["48px",{"lineHeight":"56px","letterSpacing":"-0.03em","fontWeight":"800"}],"headline-md":["24px",{"lineHeight":"32px","letterSpacing":"-0.015em","fontWeight":"700"}],"body-sm":["12px",{"lineHeight":"18px","letterSpacing":"0.01em","fontWeight":"400"}],"headline-sm":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"600"}],"body-md":["14px",{"lineHeight":"22px","letterSpacing":"0em","fontWeight":"400"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"700"}],"display-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.025em","fontWeight":"800"}],"headline-lg-mobile":["26px",{"lineHeight":"34px","letterSpacing":"-0.015em","fontWeight":"700"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(14,15,26,0.04)]"><div class="h-20 max-w-7xl mx-auto px-gutter flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-lg shrink-0"><a class="flex items-center gap-space-xs" data-path="explore" href="#"><div class="w-9 h-9 rounded-xl bg-primary-container flex items-center justify-center text-on-primary font-headline-md text-headline-md leading-none shadow-[0_4px_14px_rgba(59,47,217,0.28)]">N</div><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight font-bold">Navbat</span></a><div class="hidden xl:flex items-center gap-space-xs px-space-sm py-1.5 rounded-full bg-surface-container-low text-on-surface-variant hover:text-on-surface hover:bg-surface-container cursor-pointer transition-all"><span class="material-symbols-outlined text-[18px] text-primary">location_on</span><span class="font-label-md text-label-md font-medium">Tashkent, UZ</span><span class="material-symbols-outlined text-[16px]">expand_more</span></div></div><div class="hidden md:flex flex-1 max-w-md items-center"><div class="w-full flex items-center bg-surface-container-lowest rounded-xl px-space-md py-2.5 shadow-[0_1px_3px_0_rgba(14,15,26,0.03)] focus-within:shadow-[0_0_0_2px_#3B2FD9]"><span class="material-symbols-outlined text-outline mr-2 text-[20px]">search</span><input class="w-full bg-transparent font-body-md text-body-md text-on-surface placeholder-on-surface-variant outline-none border-none" id="headerSearch" placeholder="Search doctors, barbers, tutors, lawyers..." type="text"/></div></div><nav class="hidden lg:flex items-center gap-space-xs" data-active-classes="bg-primary-container text-on-primary font-label-lg rounded-xl"><a aria-current="page" class="px-space-md py-2 transition-colors bg-primary-container text-on-primary font-label-lg rounded-xl" data-path="explore" href="#">Explore</a><a class="px-space-md py-2 rounded-xl font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="categories" href="#">Categories</a><a class="px-space-md py-2 rounded-xl font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="my-bookings" href="#">My Bookings</a><a class="px-space-md py-2 rounded-xl font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="for-providers" href="#">For Providers</a></nav><div class="flex items-center gap-space-sm shrink-0"><button aria-label="Notifications" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-[22px]">notifications</span></button><button aria-label="Toggle Theme" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-[22px]">light_mode</span></button><a class="hidden sm:inline-flex items-center gap-1.5 px-space-md py-2.5 rounded-xl bg-surface-container-high text-primary font-label-lg text-label-lg hover:bg-primary-container hover:text-on-primary transition-all shadow-[0_1px_3px_0_rgba(14,15,26,0.03)]" data-path="partner-portal" href="#"><span class="material-symbols-outlined text-[18px]">storefront</span>Partner Portal</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center cursor-pointer ml-1" id="userBtn"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-20rem)]"><div class="flex flex-col w-full">
+<!-- Dynamic Ambient Glow Background Layers -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute -top-40 left-1/2 -translate-x-1/2 w-[1000px] h-[480px] bg-gradient-to-b from-primary/10 via-primary-container/5 to-transparent blur-3xl pointer-events-none rounded-full"></div>
+<div class="absolute top-20 right-10 w-72 h-72 bg-secondary-container/10 blur-2xl pointer-events-none rounded-full"></div>
+<!-- HERO SECTION -->
+<section class="relative max-w-7xl mx-auto px-gutter pt-10 pb-16 w-full flex flex-col items-center text-center">
+<!-- Trust Meta Tag -->
+<div class="inline-flex items-center gap-space-xs px-4 py-1.5 rounded-full bg-surface-container-high text-primary font-label-md text-label-md mb-6 shadow-sm animate-pulse">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span>Over 14,000 verified appointments booked this week</span>
+</div>
+<!-- Main Heading & Subtitle -->
+<h1 class="font-display text-display text-on-surface max-w-4xl tracking-tight leading-tight mb-4">
+        Book any appointment in seconds, <span class="bg-gradient-to-r from-primary via-primary-container to-secondary-container bg-clip-text text-transparent">wherever you are.</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mb-10">
+        Doctors, barbers, top lawyers, car care, driving instructors and certified tutors — all on Navbat.
+      </p>
+<!-- Interactive Multi-Filter Search Bar Component -->
+<div class="w-full max-w-4xl bg-surface-container-lowest rounded-2xl shadow-xl p-2.5 sm:p-3 flex flex-col md:flex-row items-stretch gap-2 relative z-20">
+<!-- Service Type Picker -->
+<div class="flex-1 flex items-center gap-3 px-4 py-3 rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors cursor-pointer group">
+<div class="w-10 h-10 rounded-lg bg-primary/10 text-primary flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[22px]">medical_services</span>
+</div>
+<div class="flex flex-col text-left min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Service</span>
+<input class="w-full bg-transparent font-title-md text-title-md text-on-surface font-semibold outline-none truncate cursor-pointer" id="serviceInput" onclick="toggleDropdown('serviceDropdown')" readonly="" type="text" value="Dental, Grooming, Legal..."/>
+</div>
+<span class="material-symbols-outlined text-outline text-[18px]">expand_more</span>
+</div>
+<!-- Location Dropdown -->
+<div class="flex-1 flex items-center gap-3 px-4 py-3 rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors cursor-pointer group">
+<div class="w-10 h-10 rounded-lg bg-secondary-container/15 text-secondary flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[22px]">near_me</span>
+</div>
+<div class="flex flex-col text-left min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Area</span>
+<select class="w-full bg-transparent font-title-md text-title-md text-on-surface font-semibold outline-none cursor-pointer">
+<option>Downtown &amp; Nearby (2 km)</option>
+<option>Mirzo Ulugbek District</option>
+<option>Chilanzar &amp; Yakkasaray</option>
+<option>Samarkand City Center</option>
+</select>
+</div>
+</div>
+<!-- Date Selector -->
+<div class="flex-1 flex items-center gap-3 px-4 py-3 rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors cursor-pointer group">
+<div class="w-10 h-10 rounded-lg bg-tertiary-fixed text-tertiary flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[22px]">calendar_today</span>
+</div>
+<div class="flex flex-col text-left min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">When</span>
+<select class="w-full bg-transparent font-title-md text-title-md text-on-surface font-semibold outline-none cursor-pointer">
+<option>Today, ASAP</option>
+<option>Tomorrow</option>
+<option>This Weekend</option>
+<option>Pick Custom Date</option>
+</select>
+</div>
+</div>
+<!-- Primary Action Button -->
+<button class="bg-primary-container text-on-primary font-label-lg text-label-lg px-8 py-4 rounded-xl shadow-lg hover:shadow-primary/25 hover:bg-primary transition-all flex items-center justify-center gap-2 shrink-0 active:scale-95" onclick="findSlots()">
+<span class="material-symbols-outlined text-[20px]">search</span>
+<span>Find Slots</span>
+</button>
+</div>
+<!-- Quick Search Suggestions Tag Cloud -->
+<div class="flex flex-wrap items-center justify-center gap-2 mt-4 text-on-surface-variant">
+<span class="font-label-sm text-label-sm">Trending Now:</span>
+<button class="px-3 py-1 rounded-full bg-surface-container font-label-sm text-label-sm hover:bg-surface-container-high transition-colors" onclick="setService('Orthodontic Checkup')">Orthodontic Checkup</button>
+<button class="px-3 py-1 rounded-full bg-surface-container font-label-sm text-label-sm hover:bg-surface-container-high transition-colors" onclick="setService('Beard Trim &amp; Fade')">Beard Trim &amp; Fade</button>
+<button class="px-3 py-1 rounded-full bg-surface-container font-label-sm text-label-sm hover:bg-surface-container-high transition-colors" onclick="setService('Contract Notarization')">Contract Notarization</button>
+<button class="px-3 py-1 rounded-full bg-surface-container font-label-sm text-label-sm hover:bg-surface-container-high transition-colors" onclick="setService('SAT Math Prep')">SAT Math Prep</button>
+</div>
+</section>
+<!-- HORIZONTAL CATEGORY RAILS / 3D-STYLED VECTOR BADGES -->
+<section class="max-w-7xl mx-auto px-gutter mb-14 w-full">
+<div class="flex items-center justify-between mb-6">
+<div>
+<h2 class="font-headline-md text-headline-md text-on-surface">Browse by Specialty</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Direct synchronized calendars with top regional practitioners</p>
+</div>
+<div class="flex items-center gap-2">
+<button aria-label="Previous category" class="w-9 h-9 rounded-full bg-surface-container-lowest shadow-sm flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors active:scale-95" id="catPrev">
+<span class="material-symbols-outlined text-[18px]">arrow_back</span>
+</button>
+<button aria-label="Next category" class="w-9 h-9 rounded-full bg-surface-container-lowest shadow-sm flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors active:scale-95" id="catNext">
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Scrollable Category Track (filled from GET /api/categories/) -->
+<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 overflow-x-auto pb-2 scrollbar-none" id="categoryTrack"></div>
+</section>
+<!-- LIVE APPOINTMENT SUMMARY TICKER & REAL-TIME AVAILABILITY MAP STATS -->
+<section class="max-w-7xl mx-auto px-gutter mb-12 w-full">
+<div class="bg-surface-container-low rounded-2xl p-6 shadow-sm flex flex-col lg:flex-row items-center justify-between gap-6">
+<div class="flex items-center gap-4">
+<div class="relative flex items-center justify-center">
+<span class="w-3.5 h-3.5 rounded-full bg-secondary-container animate-ping absolute"></span>
+<span class="w-3.5 h-3.5 rounded-full bg-secondary-container relative"></span>
+</div>
+<div class="text-left">
+<p class="font-title-md text-title-md text-on-surface font-semibold">Tashkent Metro Area Activity</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">42 specialists confirmed cancellations open for immediate check-in</p>
+</div>
+</div>
+<!-- Inline Visual Mini Metrics Chart -->
+<div class="flex items-center gap-6 shrink-0">
+<div class="flex items-center gap-2">
+<svg class="w-12 h-12 text-primary" viewbox="0 0 36 36">
+<path class="text-surface-container-high" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="3.5"></path>
+<path class="text-primary-container" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="88, 100" stroke-linecap="round" stroke-width="3.5"></path>
+</svg>
+<div>
+<span class="block font-headline-sm text-headline-sm font-bold text-on-surface">88%</span>
+<span class="block font-label-sm text-label-sm text-on-surface-variant">On-Time Index</span>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-10 h-10 rounded-xl bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">bolt</span>
+</div>
+<div>
+<span class="block font-headline-sm text-headline-sm font-bold text-on-surface">3.4 min</span>
+<span class="block font-label-sm text-label-sm text-on-surface-variant">Avg. Confirmation</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- POPULAR NEAR YOU (High-Fidelity Provider Cards) -->
+<section class="max-w-7xl mx-auto px-gutter mb-16 w-full" id="providersSection">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8">
+<div>
+<div class="flex items-center gap-2">
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Popular Near You</h2>
+<span class="px-2.5 py-0.5 rounded-full bg-primary-container text-on-primary font-label-sm text-label-sm">Top Rated</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Verified practitioners with instant confirmation within 3 km</p>
+</div>
+<div class="flex items-center gap-2" id="sortButtons">
+<button class="px-4 py-2 rounded-xl font-label-md text-label-md bg-surface-container-high text-on-surface hover:bg-surface-container transition-colors" data-sort="distance">Distance</button>
+<button class="px-4 py-2 rounded-xl font-label-md text-label-md bg-primary-container text-on-primary" data-sort="earliest">Earliest Slot</button>
+<button class="px-4 py-2 rounded-xl font-label-md text-label-md bg-surface-container-high text-on-surface hover:bg-surface-container transition-colors" data-sort="rating">Rating</button>
+</div>
+</div>
+<!-- Provider Grid (filled from GET /api/providers/) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="providerGrid"></div>
+</section>
+<!-- TRUST & HOW IT WORKS BENTO SECTION -->
+<section class="max-w-7xl mx-auto px-gutter mb-20 w-full">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Step 1 -->
+<div class="bg-surface-container-lowest p-8 rounded-3xl shadow-sm flex flex-col justify-between">
+<div class="w-12 h-12 rounded-2xl bg-primary/10 text-primary flex items-center justify-center font-headline-sm text-headline-sm font-bold mb-6">
+            01
+          </div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2 font-bold">Real-time Verified Calendars</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Zero phone tags. See exact real-time openings directly synchronized with verified professional schedules.</p>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="bg-surface-container-lowest p-8 rounded-3xl shadow-sm flex flex-col justify-between">
+<div class="w-12 h-12 rounded-2xl bg-secondary/10 text-secondary flex items-center justify-center font-headline-sm text-headline-sm font-bold mb-6">
+            02
+          </div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2 font-bold">SMS &amp; Telegram Reminders</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Instant confirmation sent to your Telegram or SMS with 1-click rescheduling and directions.</p>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="bg-surface-container-lowest p-8 rounded-3xl shadow-sm flex flex-col justify-between">
+<div class="w-12 h-12 rounded-2xl bg-tertiary-container/15 text-primary flex items-center justify-center font-headline-sm text-headline-sm font-bold mb-6">
+            03
+          </div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2 font-bold">Escrow Guarantee</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Pay safely via Click, Payme, or cash on arrival. Transparent cancellation policies with instant refunds.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- INTERACTIVE SLOT QUICK-PREVIEW DRAWER MODAL -->
+<div class="fixed inset-0 z-50 bg-on-surface/40 backdrop-blur-sm hidden flex items-end sm:items-center justify-center p-0 sm:p-4" id="bookingDrawer">
+<div class="bg-surface-container-lowest w-full max-w-lg rounded-t-3xl sm:rounded-3xl p-6 shadow-2xl flex flex-col gap-5 transform transition-transform">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold" id="drawerCategory">Service Type</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold" id="drawerTitle">Provider Name</h3>
+</div>
+<button aria-label="Close booking modal" class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface" onclick="closeSlotDrawer()">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<div class="bg-surface-container-low p-4 rounded-2xl flex items-center justify-between">
+<span class="font-body-md text-body-md text-on-surface-variant">Consultation / Booking Deposit</span>
+<span class="font-title-md text-title-md font-bold text-on-surface" id="drawerPrice">$0</span>
+</div>
+<div>
+<span class="block font-label-md text-label-md text-on-surface-variant mb-2">Available Time Slots for Selected Date</span>
+<div class="grid grid-cols-3 gap-2" id="slotButtons">
+<!-- Populated dynamically via JS -->
+</div>
+</div>
+<div class="flex flex-col gap-2 pt-2">
+<button class="w-full bg-primary-container text-on-primary py-3.5 rounded-xl font-label-lg text-label-lg font-bold shadow-md hover:bg-primary transition-all" onclick="confirmAppointment()">
+            Lock Selected Slot
+          </button>
+<p class="text-center font-body-sm text-body-sm text-on-surface-variant">Instant confirmation sent to your connected phone</p>
+</div>
+</div>
+</div>
+<!-- SIGN IN / MY BOOKINGS PANEL (same style as the drawer) -->
+<div class="fixed inset-0 z-50 bg-on-surface/40 backdrop-blur-sm hidden flex items-end sm:items-center justify-center p-0 sm:p-4" id="panel">
+<div class="bg-surface-container-lowest w-full max-w-lg rounded-t-3xl sm:rounded-3xl p-6 shadow-2xl flex flex-col gap-5">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold" id="panelKicker"></span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold" id="panelTitle"></h3>
+</div>
+<button aria-label="Close" class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface" onclick="closePanel()">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<div class="flex flex-col gap-3 max-h-[60vh] overflow-y-auto" id="panelBody"></div>
+</div>
+</div>
+<!-- TOAST NOTIFICATION CONTAINER -->
+<div class="fixed bottom-6 right-6 z-50 bg-on-surface text-surface-bright px-5 py-3.5 rounded-2xl shadow-xl flex items-center gap-3 transition-opacity duration-300 opacity-0 pointer-events-none" id="bookingToast">
+<span class="material-symbols-outlined text-secondary-container text-[22px]">check_circle</span>
+<span class="font-label-md text-label-md" id="toastMessage">Slot locked successfully!</span>
+</div>
+</div>
+</div>
+<script>
+  const API = '/api';
+  const DEFAULT_SERVICE = 'Dental, Grooming, Legal...';
+  const state = { category: '', q: '', sort: 'earliest' };
+  let P = {};            // providers by id
+  let cur = null;        // { p: provider, iso: chosen slot }
+  let access = localStorage.getItem('access');
+  let refresh = localStorage.getItem('refresh');
+
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const num = (v) => Number(v);
+  const hm = (d) => d.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' });
+  function dayLabel(d) {
+    const t = new Date(), n = new Date(); n.setDate(t.getDate() + 1);
+    if (d.toDateString() === t.toDateString()) return 'Today';
+    if (d.toDateString() === n.toDateString()) return 'Tomorrow';
+    return d.toLocaleDateString('en', { weekday: 'short' });
+  }
+  const slotFull = (iso) => { const d = new Date(iso); return dayLabel(d) + ' at ' + hm(d); };
+  const slotShort = (iso) => { const d = new Date(iso), l = dayLabel(d); return l === 'Today' ? hm(d) : l + ' ' + hm(d); };
+  function errText(e) {
+    if (e instanceof Error) return 'Network error. Please try again.';
+    if (e && e.detail) return e.detail;
+    return Object.entries(e || {}).map(([k, v]) => (k === 'non_field_errors' ? '' : k + ': ') + [].concat(v).join(' ')).join(' · ') || 'Something went wrong.';
+  }
+
+  /* ---------- API ---------- */
+  function setTokens(a, r) {
+    access = a; refresh = r;
+    if (a) { localStorage.setItem('access', a); localStorage.setItem('refresh', r); }
+    else { localStorage.removeItem('access'); localStorage.removeItem('refresh'); }
+  }
+  async function doRefresh() {
+    try {
+      const r = await fetch(API + '/auth/refresh/', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ refresh }) });
+      if (!r.ok) throw 0;
+      setTokens((await r.json()).access, refresh);
+      return true;
+    } catch (_) { setTokens(null); return false; }
+  }
+  async function api(path, opt = {}) {
+    const send = () => fetch(API + path, { ...opt, headers: { 'Content-Type': 'application/json', ...(access ? { Authorization: 'Bearer ' + access } : {}) } });
+    let r = await send();
+    if (r.status === 401 && access) { if (refresh) await doRefresh(); else setTokens(null); r = await send(); }
+    const data = r.status === 204 ? null : await r.json().catch(() => null);
+    if (!r.ok) throw data || { detail: 'Error ' + r.status };
+    return data;
+  }
+
+  /* ---------- design helpers (unchanged from the design) ---------- */
+  function toggleDropdown(id) { $('serviceInput').focus(); }
+
+  function setService(name) {
+    const input = $('serviceInput');
+    if (input) {
+      input.value = name;
+      input.classList.add('text-primary');
+      setTimeout(() => input.classList.remove('text-primary'), 400);
+    }
+  }
+
+  function toggleBookmark(btn) {
+    const icon = btn.querySelector('.material-symbols-outlined');
+    if (icon.textContent === 'bookmark') {
+      icon.textContent = 'bookmark_added';
+      icon.classList.add('text-primary');
+      showToast('Saved to your favorites.');
+    } else {
+      icon.textContent = 'bookmark';
+      icon.classList.remove('text-primary');
+      showToast('Removed from favorites.');
+    }
+  }
+
+  function showToast(msg) {
+    const toast = $('bookingToast'), label = $('toastMessage');
+    if (toast && label) {
+      label.textContent = msg;
+      toast.classList.remove('opacity-0', 'pointer-events-none');
+      toast.classList.add('opacity-100');
+      setTimeout(() => {
+        toast.classList.remove('opacity-100');
+        toast.classList.add('opacity-0', 'pointer-events-none');
+      }, 3000);
+    }
+  }
+
+  /* ---------- categories ---------- */
+  function categoryCard(c) {
+    return `<div class="group cursor-pointer bg-surface-container-lowest p-5 rounded-2xl shadow-sm hover:shadow-md transition-all flex flex-col items-center text-center hover:-translate-y-1${String(state.category) === String(c.id) ? ' ring-2 ring-primary-container' : ''}" onclick="pickCategory(${c.id})">
+<div class="w-14 h-14 rounded-2xl bg-gradient-to-tr ${esc(c.gradient)} flex items-center justify-center text-on-primary mb-3 shadow-md group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 1;">${esc(c.icon)}</span>
+</div>
+<span class="font-title-md text-title-md text-on-surface font-semibold mb-0.5">${esc(c.name)}</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">${esc(c.stats)}</span>
+</div>`;
+  }
+  let CATS = [];
+  async function loadCategories() {
+    try { CATS = await api('/categories/'); $('categoryTrack').innerHTML = CATS.map(categoryCard).join(''); }
+    catch (e) { showToast(errText(e)); }
+  }
+  function pickCategory(id) {
+    state.category = String(state.category) === String(id) ? '' : id;
+    $('categoryTrack').innerHTML = CATS.map(categoryCard).join('');
+    loadProviders(true);
+  }
+
+  /* ---------- providers ---------- */
+  function providerCard(p) {
+    const next = p.next_slots[0];
+    const verified = p.is_verified ? `<span class="material-symbols-outlined text-primary text-[18px]" style="font-variation-settings: 'FILL' 1;" title="Navbat Verified Specialist">verified</span>` : '';
+    return `<div class="bg-surface-container-lowest rounded-3xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between group">
+<div>
+<div class="flex items-start justify-between gap-4 mb-4">
+<div class="flex items-center gap-3.5">
+<div class="w-14 h-14 rounded-2xl bg-gradient-to-br ${esc(p.category.gradient)} text-on-primary flex items-center justify-center font-headline-md text-headline-md font-bold shadow-md">
+                  ${esc(p.initials)}
+                </div>
+<div>
+<div class="flex items-center gap-1.5">
+<h3 class="font-title-md text-title-md text-on-surface font-bold group-hover:text-primary transition-colors">${esc(p.name)}</h3>
+${verified}
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">${esc(p.specialty)}</p>
+</div>
+</div>
+<button aria-label="Save provider" class="text-outline hover:text-secondary transition-colors p-1" onclick="toggleBookmark(this)">
+<span class="material-symbols-outlined text-[20px]">bookmark</span>
+</button>
+</div>
+<div class="flex items-center gap-3 mb-4">
+<div class="flex items-center gap-1 bg-surface-container-high px-2 py-0.5 rounded-lg text-on-surface">
+<span class="material-symbols-outlined text-[16px] text-amber-500" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md font-bold">${num(p.rating).toFixed(2)}</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">(${p.reviews_count})</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">•</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">location_on</span>${num(p.distance_km).toFixed(1)} km
+              </span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">•</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">From $${num(p.price_from)}</span>
+</div>
+<div class="bg-surface-container-low px-3.5 py-2.5 rounded-xl flex items-center justify-between mb-5">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full ${next ? 'bg-emerald-500 animate-pulse' : 'bg-outline'}"></span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">Next Free Slot:</span>
+</div>
+<span class="font-label-md text-label-md text-primary font-bold">${next ? slotFull(next) : 'No free slots'}</span>
+</div>
+</div>
+<div class="flex items-center gap-2 pt-2">
+<button class="flex-1 bg-primary text-on-primary py-2.5 rounded-xl font-label-md text-label-md font-semibold hover:bg-primary-container transition-all active:scale-95 shadow-sm text-center" onclick="openSlotDrawer(${p.id})">
+              Quick Book
+            </button>
+<button aria-label="View schedule" class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-on-surface hover:bg-surface-container-high transition-colors" onclick="previewProvider(${p.id})">
+<span class="material-symbols-outlined text-[20px]">calendar_month</span>
+</button>
+</div>
+</div>`;
+  }
+
+  async function loadProviders(scroll) {
+    const qs = new URLSearchParams({ ordering: state.sort });
+    if (state.category) qs.set('category', state.category);
+    if (state.q) qs.set('search', state.q);
+    try {
+      const list = await api('/providers/?' + qs);
+      P = Object.fromEntries(list.map((p) => [p.id, p]));
+      $('providerGrid').innerHTML = list.length
+        ? list.map(providerCard).join('')
+        : '<p class="col-span-full text-center font-body-md text-body-md text-on-surface-variant py-10">No providers found.</p>';
+    } catch (e) { showToast(errText(e)); }
+    if (scroll) $('providersSection').scrollIntoView({ behavior: 'smooth' });
+  }
+
+  function findSlots() {
+    const v = $('serviceInput').value.trim();
+    state.q = v === DEFAULT_SERVICE ? '' : v;
+    loadProviders(true);
+  }
+
+  $('headerSearch').addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') { state.q = e.target.value.trim(); loadProviders(true); }
+  });
+
+  $('sortButtons').addEventListener('click', (e) => {
+    const btn = e.target.closest('button[data-sort]');
+    if (!btn) return;
+    state.sort = btn.dataset.sort;
+    $('sortButtons').querySelectorAll('button').forEach((b) => {
+      b.className = 'px-4 py-2 rounded-xl font-label-md text-label-md ' + (b === btn
+        ? 'bg-primary-container text-on-primary'
+        : 'bg-surface-container-high text-on-surface hover:bg-surface-container transition-colors');
+    });
+    loadProviders();
+  });
+
+  function previewProvider(id) {
+    showToast('Displaying full master schedule for ' + P[id].name);
+  }
+
+  /* ---------- slot drawer ---------- */
+  const SLOT_ON = 'py-2.5 px-3 rounded-xl font-label-md text-label-md font-semibold bg-primary-container text-on-primary shadow-sm transition-all';
+  const SLOT_OFF = 'py-2.5 px-3 rounded-xl font-label-md text-label-md font-semibold bg-surface-container text-on-surface hover:bg-surface-container-high transition-all';
+
+  function openSlotDrawer(id) {
+    const p = P[id], s = p.main_service;
+    cur = { p, iso: p.next_slots[0] || null };
+    $('drawerTitle').textContent = p.name;
+    $('drawerCategory').textContent = s ? s.name : p.specialty;
+    $('drawerPrice').textContent = s ? '$' + num(s.price) : '';
+
+    const container = $('slotButtons');
+    container.innerHTML = '';
+    if (!p.next_slots.length) container.innerHTML = '<p class="col-span-3 font-body-md text-body-md text-on-surface-variant">No free slots in the next 7 days.</p>';
+    p.next_slots.forEach((iso, index) => {
+      const btn = document.createElement('button');
+      btn.className = index === 0 ? SLOT_ON : SLOT_OFF;
+      btn.textContent = slotShort(iso);
+      btn.dataset.iso = iso;
+      btn.onclick = () => selectSlot(btn);
+      container.appendChild(btn);
+    });
+    $('bookingDrawer').classList.remove('hidden');
+  }
+
+  function selectSlot(activeBtn) {
+    Array.from(activeBtn.parentElement.children).forEach((b) => { b.className = SLOT_OFF; });
+    activeBtn.className = SLOT_ON;
+    cur.iso = activeBtn.dataset.iso;
+  }
+
+  function closeSlotDrawer() { $('bookingDrawer').classList.add('hidden'); }
+
+  async function confirmAppointment() {
+    if (!cur || !cur.iso) return showToast('No free slots for this provider.');
+    if (!access) { closeSlotDrawer(); return showAuth('login', 'Sign in to lock your slot'); }
+    try {
+      await api('/bookings/', { method: 'POST', body: JSON.stringify({ service: cur.p.main_service.id, start: cur.iso }) });
+      closeSlotDrawer();
+      showToast('Slot reserved! Opening your instant pass...');
+      loadProviders();
+      setTimeout(openBookings, 1200);
+    } catch (e) { showToast(errText(e)); loadProviders(); }
+  }
+
+  /* ---------- panel: sign in / register / my bookings ---------- */
+  function openPanel(kicker, title, html) {
+    $('panelKicker').textContent = kicker;
+    $('panelTitle').textContent = title;
+    $('panelBody').innerHTML = html;
+    $('panel').classList.remove('hidden');
+  }
+  function closePanel() { $('panel').classList.add('hidden'); }
+
+  const FIELD = 'w-full bg-surface-container-low rounded-xl px-4 py-3 font-body-md text-body-md text-on-surface outline-none focus:shadow-[0_0_0_2px_#3B2FD9]';
+  const BTN = 'w-full bg-primary-container text-on-primary py-3.5 rounded-xl font-label-lg text-label-lg font-bold shadow-md hover:bg-primary transition-all';
+
+  function showAuth(mode, hint) {
+    const reg = mode === 'register';
+    openPanel(hint || 'Account', reg ? 'Create your account' : 'Welcome back',
+      `<input class="${FIELD}" id="a_user" placeholder="Username" autocomplete="username"/>
+       ${reg ? `<input class="${FIELD}" id="a_phone" placeholder="Phone (optional)" autocomplete="tel"/>` : ''}
+       <input class="${FIELD}" id="a_pass" type="password" placeholder="Password (min 6)" autocomplete="${reg ? 'new-password' : 'current-password'}"/>
+       <button class="${BTN}" onclick="submitAuth('${mode}')">${reg ? 'Create account' : 'Sign in'}</button>
+       <p class="text-center font-body-sm text-body-sm text-on-surface-variant">${reg ? 'Already have an account?' : 'New to Navbat?'}
+         <a href="#" class="text-primary font-bold" onclick="event.preventDefault();showAuth('${reg ? 'login' : 'register'}')">${reg ? 'Sign in' : 'Create account'}</a></p>`);
+  }
+
+  async function submitAuth(mode) {
+    const body = { username: $('a_user').value.trim(), password: $('a_pass').value };
+    if (mode === 'register') body.phone = $('a_phone').value.trim();
+    try {
+      const d = await api(mode === 'register' ? '/auth/register/' : '/auth/login/', { method: 'POST', body: JSON.stringify(body) });
+      setTokens(d.access, d.refresh);
+      closePanel();
+      showToast('Welcome, ' + body.username + '!');
+      if (cur && cur.p) openSlotDrawer(cur.p.id);
+    } catch (e) { showToast(errText(e)); }
+  }
+
+  const STATUS_CLS = {
+    pending: 'bg-tertiary-fixed text-tertiary',
+    confirmed: 'bg-primary-container text-on-primary',
+    cancelled: 'bg-error-container text-on-error-container',
+    done: 'bg-surface-container-high text-on-surface-variant',
+  };
+
+  async function openBookings() {
+    if (!access) return showAuth('login', 'Sign in to see your bookings');
+    try {
+      const list = await api('/bookings/');
+      const rows = list.map((b) => `<div class="bg-surface-container-low p-4 rounded-2xl flex items-center justify-between gap-3">
+<div class="min-w-0"><p class="font-title-md text-title-md text-on-surface font-semibold truncate">${esc(b.provider_name)}</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">${esc(b.service_name)} • ${slotFull(b.start)}</p></div>
+<div class="flex items-center gap-2 shrink-0"><span class="px-2.5 py-0.5 rounded-full font-label-sm text-label-sm ${STATUS_CLS[b.status]}">${esc(b.status)}</span>
+${['pending', 'confirmed'].includes(b.status) ? `<button class="px-3 py-1 rounded-xl bg-surface-container-high font-label-md text-label-md text-on-surface hover:bg-surface-container" onclick="cancelBooking(${b.id})">Cancel</button>` : ''}</div></div>`).join('');
+      openPanel('My Bookings', 'Your appointments',
+        (rows || '<p class="font-body-md text-body-md text-on-surface-variant">No bookings yet.</p>') +
+        `<button class="w-full bg-surface-container-high text-on-surface py-3 rounded-xl font-label-lg text-label-lg hover:bg-surface-container transition-all" onclick="logout()">Sign out</button>`);
+    } catch (e) { showToast(errText(e)); }
+  }
+
+  async function cancelBooking(id) {
+    try {
+      await api('/bookings/' + id + '/status/', { method: 'POST', body: JSON.stringify({ status: 'cancelled' }) });
+      showToast('Booking cancelled.');
+      openBookings();
+      loadProviders();
+    } catch (e) { showToast(errText(e)); }
+  }
+
+  function logout() { setTokens(null); closePanel(); showToast('Signed out.'); }
+
+  /* ---------- navigation ---------- */
+  function nav(path) {
+    if (path === 'explore') window.scrollTo({ top: 0, behavior: 'smooth' });
+    else if (path === 'categories') $('categoryTrack').scrollIntoView({ behavior: 'smooth', block: 'center' });
+    else if (path === 'my-bookings') openBookings();
+    else window.open('/admin/', '_blank');   // for-providers, partner-portal
+  }
+  document.querySelectorAll('[data-path]').forEach((a) => a.addEventListener('click', (e) => { e.preventDefault(); nav(a.dataset.path); }));
+  $('userBtn').addEventListener('click', () => (access ? openBookings() : showAuth('login')));
+
+  // Smooth Category Track Scroll Buttons
+  const track = $('categoryTrack');
+  $('catPrev').addEventListener('click', () => track.scrollBy({ left: -220, behavior: 'smooth' }));
+  $('catNext').addEventListener('click', () => track.scrollBy({ left: 220, behavior: 'smooth' }));
+
+  loadCategories();
+  loadProviders();
+</script></main><footer class="w-full bg-surface-container-low mt-space-xl"><div class="max-w-7xl mx-auto px-gutter py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-xl mb-space-xl"><div><div class="flex items-center gap-space-xs mb-space-md"><div class="w-8 h-8 rounded-xl bg-primary-container flex items-center justify-center text-on-primary font-headline-sm text-headline-sm">N</div><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight font-bold">Navbat</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-xs mb-space-md">Instant unified appointment scheduling across Uzbekistan for health, legal, education, and grooming specialists.</p><div class="flex items-center gap-space-xs text-on-surface-variant"><span class="material-symbols-outlined text-[20px]">verified</span><span class="font-label-md text-label-md">Verified Local Service Providers</span></div></div><div><p class="font-title-md text-title-md text-on-surface mb-space-md">Services Directory</p><ul class="flex flex-col gap-space-xs"><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface"><a href="#">Doctors &amp; Specialists</a></li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface"><a href="#">Barbers &amp; Stylists</a></li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface"><a href="#">Legal Advisors</a></li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface"><a href="#">Car Wash &amp; Detailing</a></li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface"><a href="#">Driving Instructors</a></li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface"><a href="#">Private Tutors</a></li></ul></div><div><p class="font-title-md text-title-md text-on-surface mb-space-md">For Clients</p><ul class="flex flex-col gap-space-xs"><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface"><a href="#">Find Appointments</a></li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface"><a href="#">My Bookings</a></li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface"><a href="#">Client Help Desk</a></li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface"><a href="#">Cancellation Policy</a></li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface"><a href="#">Mobile Application</a></li></ul></div><div><p class="font-title-md text-title-md text-on-surface mb-space-md">For Professionals</p><ul class="flex flex-col gap-space-xs"><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface"><a href="#">Partner Portal</a></li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface"><a href="#">List Your Business</a></li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface"><a href="#">Calendar Sync Tools</a></li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface"><a href="#">Partner Success Stories</a></li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface"><a href="#">API Integration</a></li></ul></div><div><p class="font-title-md text-title-md text-on-surface mb-space-md">Company &amp; Trust</p><ul class="flex flex-col gap-space-xs"><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface"><a href="#">About Navbat</a></li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface"><a href="#">Security &amp; Privacy</a></li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface"><a href="#">Terms of Service</a></li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface"><a href="#">Contact Support</a></li></ul></div></div><div class="flex flex-col md:flex-row items-center justify-between gap-space-md pt-space-lg"><p class="font-body-sm text-body-sm text-on-surface-variant">© 2025 Navbat Technologies. All rights reserved.</p><div class="flex items-center gap-space-lg"><span class="font-body-sm text-body-sm text-on-surface-variant">Tashkent • Samarkand • Bukhara</span></div></div></div></footer></body></html>
